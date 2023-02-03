@@ -1,16 +1,17 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
     namespace 'com.vaiki.compositionnumber'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.vaiki.compositionnumber"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
